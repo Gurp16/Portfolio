@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width==0=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <div class="nav-name">Gurpreet</div>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Project</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn"><a href="https://drive.google.com/file/d/1eLgVEKyu_C1KhFvDq3WH0L_ar1GcCa0Z/view?usp=drive_link" target="_blank">Download CV</a>
+                    <i class="fa-solid fa-file"></i>
+                </button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- MAIN -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>My name is Gurpreet Singh</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+
+                    </div>
+                    <div class="featured-text-info">
+                        <p>"Always eager to learn and adapt, I thrive on embracing new challenges and technologies in my journey as a developer."
+                           </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn"><a href="#contact">Contact</a></button>
+                        <button class="btn"><a href="https://drive.google.com/file/d/1eLgVEKyu_C1KhFvDq3WH0L_ar1GcCa0Z/view?usp=drive_link">Download CV</a>
+                            <i class="fa-solid fa-file"></i>
+                        </button>
+                    </div>
+                    <div class="social_icons">
+                        <!-- <div class="icon"><i class="fa-brands fa-instagram"></i></div> -->
+                        <div class="icon"><a href="https://www.linkedin.com/in/gurpreet-singh-55b474266"><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="icon"><a href="#contact"><i class="fa-regular fa-envelope"></i></a></div>
+                        <div class="icon"  onclick="changeColor()"><a href="https://github.com/Gurp16"><i class="fa-brands fa-github"></i></a></div>
+                    </div>
+                </div>
+
+                <!-- <div class="featured-img">
+                    <div class="image">
+                        <img src="assets/images/avatar.png" alt="">
+                    </div>
+                </div> -->
+                <!-- <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <p>Scroll Down</p>
+                    </a> -->
+
+
+                <!-- </div> -->
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My Introduction</h3>
+                            <p>I am Gurpreet Singh Ghatora, a dedicated and enthusiastic software developer student currently pursuing a Computer Programming diploma at Georgian College in Toronto. With a strong foundation in essential programming languages and a passion for software development, I am eager to embark on a professional journey in the field.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn"><a href="https://drive.google.com/file/d/1eLgVEKyu_C1KhFvDq3WH0L_ar1GcCa0Z/view?usp=drive_link">Download CV</a>
+                                    <i class="fa-solid fa-file"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skill-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skill-list">
+                                <span>Java</span>
+                                <span>Python</span>
+                                <span>Kotlin</span>
+                                <span>JavaScript</span>
+
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skill-list">
+                                <span>MySQL</span>
+                                <span>MongoDB</span>
+                                <span>Oracle</span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Project -->
+
+            <section class="section " id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3>Portfolio</h3>
+                        <label>Used HTML, CSS, Javascript to develop a dynamic web application with functional features like resume download and contact with email capabilities. Resulted in a modern portfolio with good looking CSS and web page design full of information.</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-coins"></i>
+                        <h3>Currency Converter</h3>
+                        <label>  Developed a currency converter application using HTML, CSS, and JavaScript,  This project offers seamless currency conversion functionality with a user-friendly interface,  convert between different currencies.
+                        </label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Book Repository</h3>
+                        <label>Developed a book repository application using Java and JavaFX, providing a user-friendly interface for managing and organizing books. This project allows users to browse, search, and categorize books efficiently.</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COntact box -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <!-- <span>DO you have project in your mind , contact me here</span> -->
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="fa-solid fa-arrow-down"></i></h2>
+                            <p><i class="fa-solid fa-envelope"></i> Email: GurpreetSInghghatora1@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> Tel: 67479583438</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="top-footer">
+            <p>Gurpreet Singh</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.linkedin.com/in/gurpreet-singh-55b474266"><i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="#contact"><i class="fa-regular fa-envelope"></i></a></div>
+            <div class="icon"  onclick="changeColor()"><a href="https://github.com/Gurp16"><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+            
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Gurpreet</a> - All rights reserved</p>
+        </div>
+     </footer>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
